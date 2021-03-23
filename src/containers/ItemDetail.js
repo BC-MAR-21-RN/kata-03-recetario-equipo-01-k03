@@ -1,13 +1,26 @@
-import React, { Component } from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import React, { Component } from 'react';
+import {View, Text, StyleSheet} from 'react-native';
+import CoverImage from '../components/coverImage';
+import ListText from '../components/listText'
+import Data from '../share/data';
+class ItemDetail extends Component {
+  constructor(props) {
+    super(props)
 
-class Home extends Component {
+  }
+
+  getDataInfo(){
+    const data = Data;
+    const newData = data.find((x) => x.id == this.props.route.params.itemId )
+    return newData
+  }
 
   render() {
+    const items = this.getDataInfo();
     return(
       <View style = {styles.container}>
-
-        <Text>itemDetails page</Text>
+          <CoverImage details={items}/>
+          <ListText listIngredient={items.ingredients} />
       </View>
     )
   }
@@ -16,9 +29,13 @@ class Home extends Component {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#282828',
-      flexDirection: 'column'
+      backgroundColor: '#ffffff',
+      flexDirection: 'column',
+    },
+    listContianer: {
+      flex:2
     }
+
   })
 
-export default Home
+export default ItemDetail

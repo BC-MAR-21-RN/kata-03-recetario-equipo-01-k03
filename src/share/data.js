@@ -2,6 +2,7 @@ export default [
   {
     name: 'Pastel de remolacha salado',
     id: 'jk1',
+    category: 'trending',
     img: 'https://www.cuina.cat/uploads/s1/29/22/30/red%20velvet.jpg',
     description:
       'Los pasteles con pan de molde con salmón y queso son un clásico. Pero esta vez, vamos a ponerle a este pastel salado con pan de molde y remolacha nuevos ingredientes para hacer una receta fresca que podemos preparar con antelación y dejarlo preparado en la nevera, listo para consumir cuando lo deseemos. Tanto para una fiesta, como un entrante especial, podemos hacer este pastel de remolacha salado para asombrar a los nuestros. Sin ningún colorante artificial, gracias a la remolacha, vamos a conseguir un pastel visualmente muy atractivo y lo mejor, muy rico y jugoso. En RecetasGratis te contamos como conseguir este estupendo pastel de remolacha y queso.',
@@ -119,6 +120,7 @@ export default [
   {
     name: 'Fajitas de verduras y tofu',
     id: 'jk2',
+    category: 'recent',
     img:
       'https://t2.rg.ltmcdn.com/es/images/0/6/5/fajitas_de_verduras_y_tofu_70560_orig.jpg',
     description:
@@ -184,6 +186,7 @@ export default [
   {
     name: 'Hojaldre de espárragos trigueros',
     id: 'jk3',
+    category: 'trending',
     img:
       'https://cocina-casera.com/wp-content/uploads/2018/11/hojaldre-esparragos-trigeros-770x485.jpg',
     description:
@@ -248,6 +251,7 @@ export default [
   {
     name: 'Tacos veganos de coliflor',
     id: 'jk4',
+    category: 'trending',
     img:
       'https://t2.rg.ltmcdn.com/es/images/6/7/2/tacos_veganos_de_coliflor_70276_orig.jpg',
     description:
@@ -307,6 +311,7 @@ export default [
   {
     name: 'Gyozas de verduras',
     id: 'jk5',
+    category: 'trending',
     img:
       'https://t2.rg.ltmcdn.com/es/images/5/8/5/gyozas_de_verduras_70585_600.jpg',
     description:
@@ -383,6 +388,7 @@ export default [
   {
     name: 'Empanadas de jamón, queso y choclo',
     id: 'jk6',
+    category: 'recent',
     img:
       'https://t1.rg.ltmcdn.com/es/images/4/2/4/empanadas_de_jamon_queso_y_choclo_70424_600_square.jpg',
     description:
@@ -451,6 +457,7 @@ export default [
   {
     name: 'Paté de atún con queso crema',
     id: 'jk7',
+    category: 'trending',
     img:
       'https://t1.rg.ltmcdn.com/es/images/2/7/4/pate_de_atun_con_queso_crema_70472_orig.jpg',
     description:
@@ -581,8 +588,9 @@ export default [
   {
     name: 'Croquetas de patata y queso',
     id: 'jk9',
-    url:
+    img:
       'https://okdiario.com/img/2018/08/27/receta-de-croquetas-de-patata-y-queso-620x349.jpg',
+      category: 'trending',
     description:
       'Estas croquetas de patata y queso que te enseñamos en RecetasGratis son ideales para servir como entrante, aperitivo o tapa en cualquier momento especial ya que son muy sencillas de elaborar y no te llevará mucho tiempo prepararlas. Tan solo tienes que hervir las patatas, hacer un puré, mezclar con el resto de ingredientes, formar las bolitas rellenas, ¡freír y disfrutar!',
     ingredients: [
@@ -657,6 +665,7 @@ export default [
   {
     name: 'Empanada de bacalao con masa quebrada',
     id: 'jk10',
+    category: 'trending',
     img:
       'https://t1.rg.ltmcdn.com/es/images/8/4/2/empanada_de_bacalao_con_masa_quebrada_70248_600.jpg',
     description:
@@ -748,6 +757,7 @@ export default [
   {
     name: 'Pastel de champiñones al microondas',
     id: 'jk11',
+    category: 'recent',
     img:
       'https://t2.rg.ltmcdn.com/es/images/9/6/6/pastel_de_champinones_al_microondas_70669_orig.jpg',
     description:
@@ -806,6 +816,7 @@ export default [
   {
     name: 'Empanada de pollo con masa quebrada',
     id: 'jk12',
+    category: 'trending',
     img:
       'https://t1.rg.ltmcdn.com/es/images/7/5/1/empanada_de_pollo_con_masa_quebrada_70157_orig.jpg',
     description:
@@ -875,6 +886,7 @@ export default [
   {
     name: 'Paté de mejillones',
     id: 'jk13',
+    category: 'recent',
     img:
       'https://cocina-casera.com/wp-content/uploads/2017/12/Pat%C3%A9-de-mejillones-2.jpg',
     description:

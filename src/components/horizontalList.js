@@ -6,18 +6,20 @@ class HorizontalList extends Component {
   constructor(props) {
     super(props);
   }
-   
+  
+  
   render() {
     const renderItem = ({ item }) => (
-        <ListItem width={this.props.size.width} name={item.name} img={item.img} />
+        <ListItem Press={this.props.Press} id={item.id} width={this.props.size.width} name={item.name} img={item.img} />
     );
     return(
       <SafeAreaView 
         style={{
-            flex: this.props.size.height,  
+            flex: this.props.size.height, 
+            marginLeft: 3, 
             marginTop: StatusBar.currentHeight || 0
         }}>
-        <Text style={styles.title}>{this.props.title.toUpperCase()}</Text>
+        <Text  style={styles.title}>{this.props.title.toUpperCase()}</Text>
         <FlatList
           horizontal={true}
           data={this.props.listData}
@@ -37,6 +39,7 @@ const styles = StyleSheet.create({
   title: {
     color: '#ec2280',
     fontSize: 20,
+    marginBottom: 5
   },
 });
 

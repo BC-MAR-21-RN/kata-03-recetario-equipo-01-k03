@@ -5,14 +5,16 @@ import SearchBar from '../components/searchBar';
 import Data from '../share/data';
 
 class Home extends Component {
+  handlePress = (id) => {
+        this.props.navigation.navigate('Detail', {itemId: id})
+      }
 
   render() {
     return(
       <View style = {styles.container}>
         <SearchBar />
-
-        <HorizontalList title="trending" size={{height:0.33, width:110}} listData={Data}/>
-        <HorizontalList title="recent" size={{height:0.55, width:160}} listData={Data}/>
+        <HorizontalList Press={this.handlePress} title="trending" size={{height:0.37, width:110}} listData={Data}/>
+        <HorizontalList Press={this.handlePress} title="recent" size={{height:0.55, width:160}} listData={Data}/>
       </View>
     )
   }
