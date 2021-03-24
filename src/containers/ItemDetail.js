@@ -12,7 +12,7 @@ class ItemDetail extends Component {
     this.props.navigation.navigate('Home');
   };
 
-  getDataInfo() {
+  getDataInfo = () => {
     const data = Data;
     const newData = data.find(x => x.id === this.props.route.params.itemId);
     return newData;
