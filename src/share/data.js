@@ -192,12 +192,12 @@ export default [
     description:
       'Si te apetece comer algo rápido y rico o tienes invitados y necesitas una receta rápida y deliciosa, un hojaldre relleno es una solución estupenda. He rellenado estos hojaldres de espárragos trigueros envueltos en hojas de kale con hummus, queso vegano y nueces. Es una combinación exquisita ya que el queso al derretirse unifica todos los ingredientes del relleno y las nueces aportan un toque crujiente. Estos espárragos trigueros envueltos en hojaldre que traigo a RecetasGratis son un plato sencillo que queda vistoso en la mesa y lo puedes servir como entrante o snack.',
     ingredients: [
-      { key: 1, text: 'Lámina de hojaldre', quantity: '1' },
-      { key: 2, text: 'Espárragos verdes', quantity: '8' },
-      { key: 3, text: 'Hummus', quantity: '⅓ taza' },
-      { key: 4, text: 'Queso vegano u otro', quantity: '1 trozo' },
-      { key: 5, text: 'Hojas de kale', quantity: '4' },
-      { key: 6, text: 'Nueces', quantity: '1 puñado' },
+      { key: 1, name: 'Lámina de hojaldre', quantity: '1' },
+      { key: 2, name: 'Espárragos verdes', quantity: '8' },
+      { key: 3, name: 'Hummus', quantity: '⅓ taza' },
+      { key: 4, name: 'Queso vegano u otro', quantity: '1 trozo' },
+      { key: 5, name: 'Hojas de kale', quantity: '4' },
+      { key: 6, name: 'Nueces', quantity: '1 puñado' },
     ],
     steps: [
       {
@@ -257,17 +257,17 @@ export default [
     description:
       'Los tacos son uno de los platillos más representativos de la gastronomía mexicana. Se trata de una tortilla de harina de maíz o de trigo rellena de prácticamente cualquier cosa que se nos ocurra. Hoy en día los tacos son conocidos mundialmente como un tipo de comida rápida, puesto que se hacen al momento y se rellenan de ingredientes sencillos o preparaciones rápidas. Esta receta que comparto en RecetasGratis es la versión casera, sencilla y vegana de una receta que mezcla las culturas mexicana y estadounidense. Se trata de un taco relleno de las famosas alitas de pollo veganas de coliflor al estilo Buffalo con una salsa picante tradicional, cuya receta puedes encontrar en mi perfil de RecetasGratis. Sigue el paso a paso y descubre cómo hacer tacos veganos de coliflor.',
     ingredients: [
-      { key: 1, text: 'Tortillas de trigo o maíz', quantity: '6' },
-      { key: 2, text: 'Coliflor', quantity: '1' },
-      { key: 3, text: 'Aceite de oliva', quantity: '2 cucharadas soperas' },
-      { key: 4, text: 'Ajo en polvo', quantity: '1 cucharadita' },
-      { key: 5, text: 'Chili en polvo', quantity: '½ cucharadita' },
-      { key: 6, text: 'Aalsa Buffalo vegana', quantity: '1 taza' },
-      { key: 7, text: 'Hojas de lechuga', quantity: '3' },
-      { key: 8, text: 'Rúcula', quantity: '½ manojo' },
-      { key: 9, text: 'aguacate', quantity: '1' },
-      { key: 10, text: 'pepino', quantity: '½' },
-      { key: 11, text: 'Cilantro', quantity: '½ manojo' },
+      { key: 1, name: 'Tortillas de trigo o maíz', quantity: '6' },
+      { key: 2, name: 'Coliflor', quantity: '1' },
+      { key: 3, name: 'Aceite de oliva', quantity: '2 cucharadas soperas' },
+      { key: 4, name: 'Ajo en polvo', quantity: '1 cucharadita' },
+      { key: 5, name: 'Chili en polvo', quantity: '½ cucharadita' },
+      { key: 6, name: 'Aalsa Buffalo vegana', quantity: '1 taza' },
+      { key: 7, name: 'Hojas de lechuga', quantity: '3' },
+      { key: 8, name: 'Rúcula', quantity: '½ manojo' },
+      { key: 9, name: 'aguacate', quantity: '1' },
+      { key: 10, name: 'pepino', quantity: '½' },
+      { key: 11, name: 'Cilantro', quantity: '½ manojo' },
     ],
     steps: [
       {
@@ -317,19 +317,19 @@ export default [
     description:
       'Las gyozas son un tipo de dumplings típicos de la gastronomía asiática y muy populares en países como China, Japón y Corea. Tradicionalmente se rellenan de carne de cerdo y verduras, pero para preparar esta versión vegana vamos a sustituir la carne por la proteína de soja texturizada. El relleno se enrolla en una masa muy fina y se sella con los dedos. Las gyozas se suelen cocinar al vapor, pero si no dispones de la maquina de vapor sigue leyendo la receta de gyozas de verduras que comparto en RecetasGratis para averiguar un método casero y fácil de cocinar las gyozas.',
     ingredients: [
-      { key: 1, text: 'Papel de gyoza', quantity: '1 paquete' },
-      { key: 2, text: 'Berenjena', quantity: '1' },
-      { key: 3, text: 'Cebolla', quantity: '1' },
-      { key: 4, text: 'Tomates', quantity: '2' },
-      { key: 5, text: 'Soja texturizada fina', quantity: '½ taza' },
-      { key: 6, text: 'Zanahoria', quantity: '1' },
-      { key: 7, text: 'Sal', quantity: '½ cucharadita' },
-      { key: 8, text: 'Aceite', quantity: '1 chorro' },
-      { key: 9, text: 'Aalsa de soja', quantity: '¼ taza' },
-      { key: 10, text: 'Vinagre de arroz', quantity: '1 chorro' },
-      { key: 11, text: 'Aceite de sésamo', quantity: '1 chorro' },
-      { key: 12, text: 'Ajo machacados', quantity: '2 dientes' },
-      { key: 13, text: 'Jengibre fresco rallado', quantity: '½ cucharadita' },
+      { key: 1, name: 'Papel de gyoza', quantity: '1 paquete' },
+      { key: 2, name: 'Berenjena', quantity: '1' },
+      { key: 3, name: 'Cebolla', quantity: '1' },
+      { key: 4, name: 'Tomates', quantity: '2' },
+      { key: 5, name: 'Soja nameurizada fina', quantity: '½ taza' },
+      { key: 6, name: 'Zanahoria', quantity: '1' },
+      { key: 7, name: 'Sal', quantity: '½ cucharadita' },
+      { key: 8, name: 'Aceite', quantity: '1 chorro' },
+      { key: 9, name: 'Aalsa de soja', quantity: '¼ taza' },
+      { key: 10, name: 'Vinagre de arroz', quantity: '1 chorro' },
+      { key: 11, name: 'Aceite de sésamo', quantity: '1 chorro' },
+      { key: 12, name: 'Ajo machacados', quantity: '2 dientes' },
+      { key: 13, name: 'Jengibre fresco rallado', quantity: '½ cucharadita' },
     ],
     steps: [
       {
@@ -394,11 +394,11 @@ export default [
     description:
       'Estas empanadas de jamón, queso y choclo o maíz dulce son ideales como aperitivo o entrante para servir en cualquier evento ya que se tarda muy poco tiempo en hacerlas y encima no están fritas, si no que se hacen al horno, así que son mucho más saludables y menos calóricas que las otras. Si quieres aprender cómo hacer las empanadas de choclo, jamón y queso sigue leyendo este paso a paso de RecetasGratis. ¡Anímate y pruébalas!',
     ingredients: [
-      { key: 1, text: 'Masa de hojaldre', quantity: '2 láminas' },
-      { key: 1, text: 'Jamón York (dulce)', quantity: '4 lonchas' },
-      { key: 1, text: 'Queso', quantity: '4 lonchas' },
-      { key: 1, text: 'choclo o maíz dulce', quantity: '1 lata' },
-      { key: 1, text: 'huevo', quantity: '1' },
+      { key: 1, name: 'Masa de hojaldre', quantity: '2 láminas' },
+      { key: 2, name: 'Jamón York (dulce)', quantity: '4 lonchas' },
+      { key: 3, name: 'Queso', quantity: '4 lonchas' },
+      { key: 4, name: 'choclo o maíz dulce', quantity: '1 lata' },
+      { key: 5, name: 'huevo', quantity: '1' },
     ],
     steps: [
       {
@@ -463,16 +463,16 @@ export default [
     description:
       'Esta receta de paté de atún con queso crema lo tiene todo, porque es más ligera que la tradicional y, por tanto, tiene menos calorías, y porque es rapidísima de hacer. En tan solo 10 minutos tendrás listo un estupendo y delicioso paté casero para tus sándwiches, tostadas, canapés o cualquier aperitivo que se te ocurra. Por supuesto, también se puede servir a modo de dip de atún con palitos de pan. ¿Te animas? En RecetasGratis te enseñamos cómo hacer paté de atún con queso Philadelphia paso a paso.',
     ingredients: [
-      { key: 1, text: 'Atún al natural', quantity: '1 lata' },
-      { key: 1, text: 'Queso crema light (150 g)', quantity: '½ paquete' },
-      { key: 1, text: 'Perejil picado', quantity: '2 cucharadas soperas' },
+      { key: 1, name: 'Atún al natural', quantity: '1 lata' },
+      { key: 1, name: 'Queso crema light (150 g)', quantity: '½ paquete' },
+      { key: 1, name: 'Perejil picado', quantity: '2 cucharadas soperas' },
       {
         key: 1,
-        text: 'Aceite de oliva (opcional)',
+        name: 'Aceite de oliva (opcional)',
         quantity: '1 cucharada sopera',
       },
-      { key: 1, text: 'Pimienta negra', quantity: '1 pizca' },
-      { key: 1, text: 'Sal', quantity: '1 pizca' },
+      { key: 1, name: 'Pimienta negra', quantity: '1 pizca' },
+      { key: 1, name: 'Sal', quantity: '1 pizca' },
     ],
     steps: [
       {
@@ -518,13 +518,13 @@ export default [
     ingredients: [
       {
         key: 1,
-        text: 'Masa de hojaldre en forma rectangular',
+        name: 'Masa de hojaldre en forma rectangular',
         quantity: '1 lámina',
       },
-      { key: 2, text: 'Queso de cabra', quantity: '1 barra' },
-      { key: 3, text: 'Miel', quantity: '1 chorro' },
-      { key: 4, text: 'Nueces picadas', quantity: '1 puñado' },
-      { key: 5, text: 'Aceite o mantequilla', quantity: 'Al gusto' },
+      { key: 2, name: 'Queso de cabra', quantity: '1 barra' },
+      { key: 3, name: 'Miel', quantity: '1 chorro' },
+      { key: 4, name: 'Nueces picadas', quantity: '1 puñado' },
+      { key: 5, name: 'Aceite o mantequilla', quantity: 'Al gusto' },
     ],
     steps: [
       {
@@ -594,18 +594,18 @@ export default [
     description:
       'Estas croquetas de patata y queso que te enseñamos en RecetasGratis son ideales para servir como entrante, aperitivo o tapa en cualquier momento especial ya que son muy sencillas de elaborar y no te llevará mucho tiempo prepararlas. Tan solo tienes que hervir las patatas, hacer un puré, mezclar con el resto de ingredientes, formar las bolitas rellenas, ¡freír y disfrutar!',
     ingredients: [
-      { key: 1, text: 'Patata mediana', quantity: '4' },
-      { key: 2, text: 'Mozzarella rallada', quantity: '100 gramos' },
+      { key: 1, name: 'Patata mediana', quantity: '4' },
+      { key: 2, name: 'Mozzarella rallada', quantity: '100 gramos' },
       {
         key: 3,
-        text: 'Mozzarella en barra o queso provolone',
+        name: 'Mozzarella en barra o queso provolone',
         quantity: '100 gramos',
       },
-      { key: 4, text: 'Pan rallado', quantity: '100 gramos' },
-      { key: 5, text: 'Perejil picado', quantity: '2 cucharadas soperas' },
-      { key: 6, text: 'Pimienta negra', quantity: 'Al gusto' },
-      { key: 7, text: 'Sal', quantity: 'Al gusto' },
-      { key: 8, text: 'Aceite para freír', quantity: 'Al gusto' },
+      { key: 4, name: 'Pan rallado', quantity: '100 gramos' },
+      { key: 5, name: 'Perejil picado', quantity: '2 cucharadas soperas' },
+      { key: 6, name: 'Pimienta negra', quantity: 'Al gusto' },
+      { key: 7, name: 'Sal', quantity: 'Al gusto' },
+      { key: 8, name: 'Aceite para freír', quantity: 'Al gusto' },
     ],
     steps: [
       {
@@ -671,24 +671,24 @@ export default [
     description:
       'La empanada de bacalao con masa quebrada y bechamel es un plato típico de la cocina brasileña y portuguesa. Se elabora con verduras variadas, salsa blanca y queso, de manera que el resultado es una empanada de pescado cremosa, suave y deliciosa, que contrasta con la textura de la masa quebrada y combina a la perfección.',
     ingredients: [
-      { key: 1, text: 'Harina de trigo', quantity: '300 gramos' },
-      { key: 2, text: 'Mantequilla blanda', quantity: '130 gramos' },
-      { key: 3, text: 'Agua', quantity: '3 cucharadas soperas' },
-      { key: 4, text: 'Sal', quantity: '1 pizca' },
-      { key: 5, text: 'Yema para pincelar', quantity: '1' },
-      { key: 6, text: 'Bacalao desalado', quantity: '600 gramos' },
-      { key: 7, text: 'Verduras variadas', quantity: '400 gramos' },
-      { key: 8, text: 'Mantequilla', quantity: '2 cucharadas soperas' },
-      { key: 9, text: 'Queso mozzarella rallado', quantity: '½ taza' },
-      { key: 10, text: 'Hoja de laurel', quantity: '1' },
-      { key: 11, text: 'Pimienta negra', quantity: '1 pizca' },
-      { key: 12, text: 'Sal', quantity: '1 pizca' },
-      { key: 13, text: 'Leche', quantity: '300 ml' },
-      { key: 14, text: 'Maicena', quantity: '2 cucharadas soperas' },
-      { key: 15, text: 'Mantequilla', quantity: '1 cucharada sopera' },
-      { key: 16, text: 'Nuez moscada', quantity: '1 pizca' },
-      { key: 17, text: 'Pimienta negra', quantity: '1 pizca' },
-      { key: 18, text: 'Sal', quantity: '1 pizca' },
+      { key: 1, name: 'Harina de trigo', quantity: '300 gramos' },
+      { key: 2, name: 'Mantequilla blanda', quantity: '130 gramos' },
+      { key: 3, name: 'Agua', quantity: '3 cucharadas soperas' },
+      { key: 4, name: 'Sal', quantity: '1 pizca' },
+      { key: 5, name: 'Yema para pincelar', quantity: '1' },
+      { key: 6, name: 'Bacalao desalado', quantity: '600 gramos' },
+      { key: 7, name: 'Verduras variadas', quantity: '400 gramos' },
+      { key: 8, name: 'Mantequilla', quantity: '2 cucharadas soperas' },
+      { key: 9, name: 'Queso mozzarella rallado', quantity: '½ taza' },
+      { key: 10, name: 'Hoja de laurel', quantity: '1' },
+      { key: 11, name: 'Pimienta negra', quantity: '1 pizca' },
+      { key: 12, name: 'Sal', quantity: '1 pizca' },
+      { key: 13, name: 'Leche', quantity: '300 ml' },
+      { key: 14, name: 'Maicena', quantity: '2 cucharadas soperas' },
+      { key: 15, name: 'Mantequilla', quantity: '1 cucharada sopera' },
+      { key: 16, name: 'Nuez moscada', quantity: '1 pizca' },
+      { key: 17, name: 'Pimienta negra', quantity: '1 pizca' },
+      { key: 18, name: 'Sal', quantity: '1 pizca' },
     ],
     steps: [
       {
@@ -763,16 +763,16 @@ export default [
     description:
       'El microondas no sólo se puede utilizar para recalentar la comida, también se puede usar para cocinar una gran variedad de platos ricos y saludables. Esta receta de pastel de champiñones y piñones es muy sencilla y rápida, puesto que tan solo requiere una cocción de poco más de 10 minutos en el microondas. El pastel de champiñones queda crujiente por fuera y tierno por dentro, y no solo puedes servirlo como un entrante o parte de un plato principal, sino también para rellenar un bocadillo o sándwich. Esta receta es vegana y vamos a utilizar la harina de garbanzos para unificar los ingredientes, pero si deseas puedes usar 3-4 huevos para sustituirla. Sigue leyendo y descubre en RecetasGratis cómo hacer pastel de champiñones al microondas.',
     ingredients: [
-      { key: 1, text: 'Cebolla', quantity: '½' },
-      { key: 2, text: 'Champiñón', quantity: '12' },
-      { key: 3, text: 'Harina de garbanzos', quantity: '5 cucharadas soperas' },
-      { key: 4, text: 'Agua', quantity: '5 cucharadas soperas' },
-      { key: 5, text: 'Sal kala namak', quantity: '½ cucharadita' },
-      { key: 6, text: 'Aceite de oliva', quantity: '1 cucharada sopera' },
-      { key: 7, text: 'Puerro', quantity: '½' },
-      { key: 8, text: 'Fécula de maíz', quantity: '1 cucharada sopera' },
-      { key: 9, text: 'Piñones', quantity: '1 puñado' },
-      { key: 10, text: 'Sal', quantity: '1 pizca' },
+      { key: 1, name: 'Cebolla', quantity: '½' },
+      { key: 2, name: 'Champiñón', quantity: '12' },
+      { key: 3, name: 'Harina de garbanzos', quantity: '5 cucharadas soperas' },
+      { key: 4, name: 'Agua', quantity: '5 cucharadas soperas' },
+      { key: 5, name: 'Sal kala namak', quantity: '½ cucharadita' },
+      { key: 6, name: 'Aceite de oliva', quantity: '1 cucharada sopera' },
+      { key: 7, name: 'Puerro', quantity: '½' },
+      { key: 8, name: 'Fécula de maíz', quantity: '1 cucharada sopera' },
+      { key: 9, name: 'Piñones', quantity: '1 puñado' },
+      { key: 10, name: 'Sal', quantity: '1 pizca' },
     ],
     steps: [
       {
@@ -822,22 +822,22 @@ export default [
     description:
       '¿Sabes que puedes preparar una empanada de pollo con masa quebrada en menos de 30 minutos? ¡Pues en RecetasGratis lo puedes conseguir gracias al paso a paso que te explicamos a continuación! Se trata de una receta de empanada con masa quebrada rellena de pollo frito con tomate, verduras y queso rallado muy sencilla y práctica de elaborar que te encantará. ¡Ya lo verás!',
     ingredients: [
-      { key: 1, text: 'Masa quebrada preparada', quantity: '1 lámina' },
+      { key: 1, name: 'Masa quebrada preparada', quantity: '1 lámina' },
       {
         key: 2,
-        text: 'Pechuga de pollo o pavo cortado en trozos',
+        name: 'Pechuga de pollo o pavo cortado en trozos',
         quantity: '1',
       },
-      { key: 3, text: 'Puerro picado', quantity: '1' },
+      { key: 3, name: 'Puerro picado', quantity: '1' },
       {
         key: 4,
-        text: 'Pasta salsa o tomate',
+        name: 'Pasta salsa o tomate',
         quantity: '3 cucharadas soperas',
       },
-      { key: 5, text: 'Queso rallado', quantity: '1 taza' },
-      { key: 6, text: 'Aceite de oliva', quantity: '1 cucharada sopera' },
-      { key: 7, text: 'Pimienta negra al gusto', quantity: 'Al gusto' },
-      { key: 8, text: 'Sal', quantity: 'Al gusto' },
+      { key: 5, name: 'Queso rallado', quantity: '1 taza' },
+      { key: 6, name: 'Aceite de oliva', quantity: '1 cucharada sopera' },
+      { key: 7, name: 'Pimienta negra al gusto', quantity: 'Al gusto' },
+      { key: 8, name: 'Sal', quantity: 'Al gusto' },
     ],
     steps: [
       {
@@ -892,11 +892,11 @@ export default [
     description:
       'Con tan sólo tres ingredientes podemos tener un paté de mejillones riquísimo y empleando solamente 5 minutos. Os sorprenderá su suave textura y lo untable que es, ideal para acompañar nuestro pan tostado preferido. El sabor a mejillones será sutil pero estará presente, seguro que una vez lo probéis lo repetiréis muchas veces más.',
     ingredients: [
-      { key: 1, text: 'Mejillones en escabeche', quantity: '1 lata pequeña' },
-      { key: 2, text: 'Surimi', quantity: '3 palitos' },
+      { key: 1, name: 'Mejillones en escabeche', quantity: '1 lata pequeña' },
+      { key: 2, name: 'Surimi', quantity: '3 palitos' },
       {
         key: 3,
-        text: 'Queso fresco tipo philadelphia',
+        name: 'Queso fresco tipo philadelphia',
         quantity: '150 gramos',
       },
     ],

@@ -1,33 +1,43 @@
-import React, { Component } from 'react'
-import { View, Text, StyleSheet, FlatList, StatusBar, SafeAreaView } from 'react-native'
+import React, {Component} from 'react';
+import {
+  Text,
+  StyleSheet,
+  FlatList,
+  StatusBar,
+  SafeAreaView,
+} from 'react-native';
 import ListItem from './listItem';
 
 class HorizontalList extends Component {
   constructor(props) {
     super(props);
   }
-  
-  
+
   render() {
-    const renderItem = ({ item }) => (
-        <ListItem Press={this.props.Press} id={item.id} width={this.props.size.width} name={item.name} img={item.img} />
+    const renderItem = ({item}) => (
+      <ListItem
+        press={this.props.handlePress}
+        item={item}
+        width={this.props.size.width}
+      />
     );
-    return(
-      <SafeAreaView 
+
+    return (
+      <SafeAreaView
         style={{
-            flex: this.props.size.height, 
-            marginLeft: 3, 
-            marginTop: StatusBar.currentHeight || 0
+          flex: this.props.size.height,
+          marginLeft: 3,
+          marginTop: StatusBar.currentHeight || 0,
         }}>
-        <Text  style={styles.title}>{this.props.title.toUpperCase()}</Text>
+        <Text style={styles.title}>{this.props.title.toUpperCase()}</Text>
         <FlatList
           horizontal={true}
           data={this.props.listData}
           renderItem={renderItem}
           keyExtractor={item => item.id}
         />
-    </SafeAreaView>
-    )
+      </SafeAreaView>
+    );
   }
 }
 
@@ -39,7 +49,7 @@ const styles = StyleSheet.create({
   title: {
     color: '#ec2280',
     fontSize: 20,
-    marginBottom: 5
+    marginBottom: 5,
   },
 });
 
