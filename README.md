@@ -104,3 +104,5 @@ Al ser reutilizables `List Item` y `Horizontal List`pueden servir tanto para tre
 ## Recursos
 [Para apoyo de tus actividades utiliza esta lista de recursos recomendados](https://github.com/bright-coders/commons/tree/master/topics/resources-react-native)
   
+## CodeClimate (Calificación)
+![CodeClimate](img/CodeClimate.PNG)
